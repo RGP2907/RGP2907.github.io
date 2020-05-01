@@ -1,0 +1,25 @@
+h1 {
+    color: powderblue;
+    text-align: center;
+}
+
+p {
+    color: grey;
+}
+
+p {
+  border: 1px solid grey;
+  padding: 30px;
+  margin: 50px;
+}
+
+h1 {
+  color: lightblue;
+  font-family: verdana;
+  font-size: 200%;
+}
+p  {
+  color: grey;
+  font-family: times;
+  font-size: 100%;
+}
