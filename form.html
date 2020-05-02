@@ -5,8 +5,27 @@
     </head>
     <body>
         <form>
-            <input type="text" placeholder="Full Name" name="name">
+          <div>
+            <input name="name" type="text" placeholder="Please enter Full Name">
+            <input name="password" type="password" placeholder="Please enter Password">
+            <input list="countries" name="country" placeholder="Select Country">
+            <datalist id="countries" >
+              <option value="Albania"></option>
+              <option value="Britain"></option>
+              <option value="India"></option>
+              <option value="Singapore"></option>
+              <option value="UAE"></option>
+              <option value="United States"></option>
+              <option value="Zebra country"></option>
+            </datalist>
+          </div>
+          <div>
+            What is your Favourite Pet?
+            <input type="radio" name="pet" value="Dog"> Dog
+            <input type="radio" name="pet" value="Cat"> Cat
+            <input type="radio" name="Others" value="Other"> Others
             <button>Submit!</button>
+          </div>
         </form>
     </body>
 </html>
