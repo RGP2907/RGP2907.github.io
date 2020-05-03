@@ -21,3 +21,19 @@ p  {
   font-family: times;
   font-size: 100%;
 }
+<style>
+input[type=text] {
+  background-color: grey;
+}
+input[type=number] {
+  background-color: lightyellow;
+}
+button {
+  width 150px;
+  hieght 40px
+  background-color: grey;
+}
+button:hover {
+  background-color: lightgreen;
+}
+</style>
