@@ -3,26 +3,16 @@
 <style>
 h1 {
     color: powderblue;
+    font-family: verdana;
+    font-size: 200%;
     text-align: left;
 }
 
 p {
     color: grey;
-}
-
-p {
-  border: 1px solid grey;
-}
-
-h1 {
-  color: lightblue;
-  font-family: verdana;
-  font-size: 200%;
-}
-p  {
-  color: grey;
-  font-family: times;
-  font-size: 100%;
+    font-family: times;
+    font-size: 100%;
+    border: 1px solid grey;
 }
 
 input[type=text] {
