@@ -10,7 +10,7 @@ h1 {
 
 p {
     color: grey;
-    font-family: times;
+    font-family: verdana;
     font-size: 100%;
     border: 1px solid grey;
 }
@@ -39,5 +39,38 @@ button:hover {
   margin: 15px;
   padding: 15px;
   width: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.header {
+  grid-column: span 12;
+}
+.navigation-menu {
+  grid-column: span 4;
+}
+.main-content {
+  grid-column: span 8;
+}
+.footer {
+  grid-column: span 12;
+}
+@media screen and (max-width: 768px) {
+  .navigation-menu {
+    grid-column: span 6;
+  }
+  .main-content {
+    grid-column: span 6;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navigation-menu {
+    grid-column: span 12;
+  }
+  .main-content {
+    grid-column: span 12;
+  }
 }
 </style>
