@@ -34,10 +34,10 @@ button:hover {
   flex-wrap: wrap;
 }
 .container > div {
-  background-color: lightyellow;
-  font-size: 20px;
-  margin: 15px;
-  padding: 15px;
+  background-color: blue;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
   width: auto;
 }
 
@@ -49,7 +49,7 @@ button:hover {
   grid-column: span 12;
 }
 .navigation-menu {
-  grid-column: span 3;
+  grid-column: span 2;
 }
 .main-content {
   grid-column: span 8;
@@ -59,7 +59,7 @@ button:hover {
 }
 @media screen and (max-width: 768px) {
   .navigation-menu {
-    grid-column: span 3;
+    grid-column: span 2;
   }
   .main-content {
     grid-column: span 6;
