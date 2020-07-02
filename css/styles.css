@@ -32,7 +32,7 @@ button {
   background-color: grey;
 }
 button:hover {
-  background-color: lightgreen;
+  background-color: blue;
 }
 .container {
   display: flex;
