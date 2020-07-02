@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-    color: lightgreen;
+    color: blue;
     font-family: times;
     text-align: left;
 }
@@ -39,10 +39,10 @@ button:hover {
   flex-wrap: wrap;
 }
 .container > div {
-  background-color: powderblue;
-  font-size: 18px;
-  margin: 10px;
-  padding: 10px;
+  background-color: orange;
+  font-size: 28px;
+  margin: 20px;
+  padding: 20px;
   width: auto;
 }
 
