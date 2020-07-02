@@ -46,9 +46,10 @@ button:hover {
 }
 .container > div {
   background-color: orange;
-  font-size: 28px;
-  margin: 20px;
-  padding: 20px;
+  font-family: Arial
+  font-size: 10px;
+  margin: 5px;
+  padding: 10px;
   width: auto;
 }
 
