@@ -2,7 +2,7 @@
 
 <style>
 h1 {
-    color: powderblue;
+    color: orange;
     font-family: verdana;
     text-align: center;
 }
@@ -17,7 +17,7 @@ p {
     color: grey;
     font-family: verdana;
     font-size: 100%;
-    border: 1px solid grey;
+    border: 1px solid orange;
 }
 
 input[type=text] {
