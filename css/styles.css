@@ -11,6 +11,8 @@ h2 {
     color: blue;
     font-family: times;
     text-align: left;
+    padding: 10px
+    margin: 5px
 }
 
 p {
@@ -18,6 +20,8 @@ p {
     font-family: verdana;
     font-size: 100%;
     border: 1px solid orange;
+    padding: 10px
+    margin: 5px
 }
 
 input[type=text] {
