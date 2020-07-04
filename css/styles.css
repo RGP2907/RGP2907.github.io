@@ -34,8 +34,7 @@ input[type=number] {
 }
 button {
   width 150px;
-  hieght 40px
-  background-color: grey;
+  hieght 40px;
 }
 button:hover {
   background-color: orange;
